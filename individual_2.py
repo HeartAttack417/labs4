@@ -8,9 +8,6 @@ if __name__ == '__main__':
     i = 0
     n = len(sentence) - 1
     for i in range(n):
-        print(sentence[i])
-        print(sentence[i+1])
-        print("цикл")
         if 'а' == sentence[i] and 'х' == sentence[i+1]:
             sentence = sentence.replace(sentence[i], 'у')
     print(sentence)
